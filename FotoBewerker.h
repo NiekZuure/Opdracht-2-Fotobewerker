@@ -2,7 +2,7 @@
  * FotoBewerker.h
  *
  *  Created on: 3 mrt. 2012
- *      Author: acer
+ *      Author: Niek Zuure
  */
 
 #ifndef FOTOBEWERKER_H_
@@ -34,6 +34,7 @@ public:
 	virtual ~FotoBewerker();
 
 	void keyPressEvent( int keyCode, int nativeCode );
+	void showFotoScherm();
 };
 
 #endif /* FOTOBEWERKER_H_ */

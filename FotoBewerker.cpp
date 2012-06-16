@@ -2,7 +2,7 @@
  * FotoBewerker.cpp
  *
  *  Created on: 3 mrt. 2012
- *      Author: acer
+ *      Author: Niek Zuure
  */
 
 #include "FotoBewerker.h"
@@ -13,6 +13,11 @@ FotoBewerker::FotoBewerker()
 {
 	this->fotoScherm = new FotoScherm();
 	this->showFotoScherm();
+}
+
+void FotoBewerker::showFotoScherm()
+{
+	this->fotoScherm->show();
 }
 
 //destructor verwijdert fotoscherm

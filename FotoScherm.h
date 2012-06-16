@@ -2,12 +2,11 @@
  * FotoScherm.h
  *
  *  Created on: 3 mrt. 2012
- *      Author: acer
+ *      Author: Niek Zuure
  */
 
 #ifndef FOTOSCHERM_H_
 #define FOTOSCHERM_H_
-
 
 //voor fotoscherm gebruiken we een Screen, Label, Image en Font
 #include <MAUtil/Moblet.h>
@@ -26,13 +25,9 @@
 //fotoscherm bevat een optiescherm
 #include "OptieScherm.h"
 
-
-
 //deze namespaces zijn nodig om niet overal MAUtil:: en MAUI:: achter bijbehorende klassen te schrijven
 using namespace MAUtil;
 using namespace MAUI;
-
-
 
 //deze klasse is een Screen
 class FotoScherm : public Screen
@@ -48,11 +43,11 @@ public:
 	FotoScherm();
 	virtual ~FotoScherm();
 
-	//kan key en touch events opvangen
+	//opvangen events
 	void keyPressEvent(int keyCode, int nativeCode);
 	void pointerPressEvent(MAPoint2d point);
 
-	//bevat een show() functie die alle eigenschappen update bij aanroep met waarden uit OptieScherm
+	//haalt de waardes op uit het optiescherm
 	void show();
 };
 
