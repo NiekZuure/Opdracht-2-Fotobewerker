@@ -17,7 +17,7 @@ FotoScherm::FotoScherm()
 	screenWidth = EXTENT_X( screenSize );
 	screenHeight = EXTENT_Y( screenSize );
 
-	//het aanmaken van het
+	//het aanmaken van het optiescherm
 	this->optieScherm = new OptieScherm(this);
 
 	//standaard font en grafisch uiterlijk (uit de resource file res.lst)
