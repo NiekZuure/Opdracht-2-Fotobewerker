@@ -38,8 +38,6 @@ FotoScherm::FotoScherm()
 	this->setMain(this->achtergrondLabel);
 }
 
-
-
 //show() override de show() van de super klasse (Screen), omdat we bij showen eerst opties willen ophalen
 void FotoScherm::show()
 {

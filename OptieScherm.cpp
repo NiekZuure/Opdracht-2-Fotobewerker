@@ -14,8 +14,6 @@ OptieScherm::OptieScherm(Screen* parent)
 	//sla parent scherm op (FotoScherm) om de show() te kunnen aanroepen, zodat dit optiescherm weer gesloten wordt
 	this->parent = parent;
 
-	//bepaal grootte van het scherm
-
 	//standaard font en grafisch uiterlijk (uit de resource file res.lst)
 	Font* font = new MAUI::Font(RES_FONT);
 	WidgetSkin* skin = new WidgetSkin(RES_SELECTED, RES_UNSELECTED, 16, 32, 16, 32, false, false);

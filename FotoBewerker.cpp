@@ -26,10 +26,6 @@ FotoBewerker::~FotoBewerker()
 	delete this->fotoScherm;
 }
 
-
-
-
-
 /**
  * Called when a key is pressed.
  */
@@ -41,5 +37,3 @@ void FotoBewerker::keyPressEvent(int keyCode, int nativeCode)
 		this->close();
 	}
 }
-
-

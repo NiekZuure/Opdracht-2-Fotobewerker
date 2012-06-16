@@ -8,7 +8,6 @@
 #ifndef FOTOBEWERKER_H_
 #define FOTOBEWERKER_H_
 
-
 //we gebruiken Screen klasse om schermen aan te maken
 #include <MAUtil/Moblet.h>
 #include <MAUI/Screen.h>
@@ -16,7 +15,6 @@
 //deze namespaces zijn nodig om niet overal MAUtil:: en MAUI:: achter bijbehorende klassen te schrijven
 using namespace MAUtil;
 using namespace MAUI;
-
 
 //we maken een fotoscherm, dit fotoscherm bevat weer een optiescherm
 #include "FotoScherm.h"

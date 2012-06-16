@@ -47,8 +47,6 @@ private:
 
 	int achtergrondKleur;
 
-	//todo: voeg editboxen en waardes toe die opgeslagen moeten worden
-
 public:
 	OptieScherm( Screen* parent );
 	virtual ~OptieScherm();
